@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form basico</title>
+</head>
+<body>
+    <!--SHIFT+ALT+F = arrumar código-->
+    <form action="">
+        <div>
+            <!--O for do LABEL serve para qnd vc clicar no >...< seu cursor ir para dentro do input-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Escreva seu nome..." required>
+        </div>
+        <!--como escrever a mesma coisa em lugares diferentes: clicar com botão do mouse, segurar ALT e clicar em outro lugar-->
+        <div>   
+            <p>Escolha seu time:</p>
+            <!--name serve para vc escolher só uma opção-->
+            <div>
+                <input type="radio" name="time" id="nenhum">
+                <label for="nenhum">Nenhum</label>
+            </div>
+            <div>
+                <input type="radio" name="time" id="SP">
+                <label for="SP">São Paulo</label>
+            </div>
+            <div>
+                <input type="radio" name="time" id="Flamengo">
+                <label for="flamengo">Flamengo</label>
+            </div>
+            <div>
+                <input type="radio" name="time" id="corinthians">
+                <label for="corinthians">corinthians</label>
+            </div>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
+<!--git remote add origin https://github.com/joao1joao1/aulas_html_css.git
+git branch -M main
+git push -u origin main-->
