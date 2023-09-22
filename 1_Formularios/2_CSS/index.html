@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal, External</title>
+    <!--AQUI É O CONECTOR. href ="nomo do arquivo" -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--AQUI É A CONFIG DE CADA ELEMENTO HTML-->
+    <style>
+        h2{
+        color: aqua; background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS-Inline, Internal, External</h1>
+    <!--A BAIXO HÁ O INLINE = EM LINHA. LOGO TUUUDO LINHA POR LINHA, Ñ PRATICO   =(    -->
+    <p style="color: white; background: orangered;">Fui estilizado com CSS inline</p>
+    <p style="color: white; background: orangered;">Outro parágrafo</p>
+    <p style="color: white; background: orangered;">Outro parágrafo</p>
+
+     <!--A BAIXO HÁ O INTERNAL = INTERNO/ CSS INTERNO. TUDO FEITO NO HEAD, ALCANÇA VÁRIOS ELEMENTOS DE UMA VEZ   -->
+    <h2>Sou um H2</h2>
+    <h2>Sou OUTRO H2</h2>
+
+    <!--A BAIXO HÁ O EXTERNAL, UM ARQUIVO SOMENTE PARA CSS. ATRAVÉS DO LINK DENTRO DO HEAD, PARA CONECTAR COM O CSS. + fácil-->
+    <h3>Sou um H3 LEGAL</h3>
+    <h3>Sou OUTRO H3 LEGAL</h3>
+</body>
+</html>
