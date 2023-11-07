@@ -1,0 +1,23 @@
+div {
+    border: 4px dotted blue;
+    width: fit-content; /*faz a bordar terminar no conteudo/ grudar!*/
+    font-size: 24px;
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+
+    /* SHORTHAND FACILITA: */
+
+    /* se colocarmos 1 valor apenas, serve para todos os lados */
+    padding: 4px;
+
+    /* se colocarmos 2 valores apenas, serve para cima e baixo */
+    padding: 20px 20px;
+
+    /* se colocarmos 3 valores apenas, serve para: 1°left, 2°top e bottom, 3° right  */
+    padding: 20px 50px 5px;
+}
+
+/* parei no 10:50 no viedo */
