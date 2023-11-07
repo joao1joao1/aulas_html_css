@@ -1,3 +1,5 @@
+*
+
 div {
     border: 4px dotted blue;
     width: fit-content; /*faz a bordar terminar no conteudo/ grudar!*/
@@ -16,8 +18,32 @@ div {
     /* se colocarmos 2 valores apenas, serve para cima e baixo */
     padding: 20px 20px;
 
-    /* se colocarmos 3 valores apenas, serve para: 1°left, 2°top e bottom, 3° right  */
+    /* se colocarmos 3 valores apenas, serve para: 1°top, 2°RIGHT E LEFT, 3° bottom  */
     padding: 20px 50px 5px;
+
+    /* se colocarmos 4 valores apenas, serve para: 1°top, 2°RIGHT, 3°LEFT, 4° bottom  */
+    padding: 1px 2px 3px 4px;
+
+    /* propriedades extras: */
+    padding-inline: 40px; /*padding para horizontal*/
+    padding-block: 60px; /*padding para vertical*/
 }
 
-/* parei no 10:50 no viedo */
+/* margin funciona e possui os mesmos shorthands como o padding */
+
+h1 {
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: 50%;
+}
